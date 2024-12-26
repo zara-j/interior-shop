@@ -1,27 +1,26 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import { faUser, faMagnifyingGlass, faHeart, faCartShopping } from "@fortawesome/free-solid-svg-icons";
-
+import { IoCartOutline } from "react-icons/io5";
+import { IoIosHeartEmpty } from "react-icons/io";
+import { HiMiniMagnifyingGlass } from "react-icons/hi2";
+import { FaRegUser } from "react-icons/fa";
 
 const IconNavbar = (
 ) => {
     return (
-        <div>
-            <div className="flex">
-                <Link to="/profile" className="text-dark swrl rounded-md px-3 no-underline p-7">
-                    <FontAwesomeIcon icon={faUser} />
-                </Link>
-                <Link to="/search" className="text-dark swrl rounded-md px-3 no-underline p-7">
-                    <FontAwesomeIcon icon={faMagnifyingGlass} />
-                </Link>
-                <Link to="/favorites"className="text-dark swrl rounded-md px-3 no-underline p-7">
-                    <FontAwesomeIcon icon={faHeart} />
-                </Link>
-                <Link to="/cart" className="text-dark swrl rounded-md px-3 no-underline p-7">
-                    <FontAwesomeIcon icon={faCartShopping} />
-                </Link>
-
-            </div>
+        <div className="flex">
+            <Link to="/profile" className="text-dark px-4 no-underline">
+                <h3><FaRegUser /></h3>
+            </Link>
+            <Link to="/search" className="text-dark px-4 no-underline">
+                <h3> <HiMiniMagnifyingGlass /></h3>
+            </Link>
+            <Link to="/favorites" className="text-dark px-4 no-underline">
+                <h3><IoIosHeartEmpty /></h3>
+            </Link>
+            <Link to="/cart" className="text-dark px-4 no-underline">
+                <h3><IoCartOutline /></h3>
+            </Link>
         </div>
     );
 };
