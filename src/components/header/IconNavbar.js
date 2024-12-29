@@ -8,7 +8,7 @@ import { FaRegUser } from "react-icons/fa";
 const IconNavbar = (
 ) => {
     return (
-        <div className="flex">
+        <div className="flex justify-center">
             <Link to="/profile" className="text-dark px-4 no-underline">
                 <h3><FaRegUser /></h3>
             </Link>
