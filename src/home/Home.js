@@ -9,7 +9,7 @@ const Home = () => {
 
     return (
         <div className="bg-dark min-h-screen overflow-x-hidden">
-          <div className="max-w-[1600px] mx-auto">
+          <div className="max-w-[1800px] mx-auto">
                 <MyHeader />
                 <TitlePic />
                 <BrowseTheRange />

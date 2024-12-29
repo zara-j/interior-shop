@@ -23,7 +23,7 @@ const OurProducts = () => {
 
     return (
         <div className="bg-light flex flex-col items-center py-10">
-            <h1 className="text-center font-bold text-1xl mb-8">Our Products</h1>
+            <h1 className="text-center font-bold text-5xl mb-8">Our Products</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-5 mx-5">
                 {products.map((product, index) => (
                     <ProductCard
