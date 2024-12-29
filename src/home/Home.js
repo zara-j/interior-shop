@@ -1,5 +1,6 @@
 import MyHeader from "../components/header/MyHeader"
-import Categories from "./Categories"
+import BrowseTheRange from "./BrowseTheRange"
+import OurProducts from "./products/OurProducts"
 import TitlePic from "./TitlePic"
 
 
@@ -11,7 +12,8 @@ const Home = () => {
           <div className="max-w-[1600px] mx-auto">
                 <MyHeader />
                 <TitlePic />
-                <Categories />
+                <BrowseTheRange />
+                <OurProducts />
             </div>
         </div>
     )
