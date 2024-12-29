@@ -6,7 +6,7 @@ const TitlePic = () => {
       <img className="h-screen w-screen object-cover" alt="Title Background" src={titleBg01} />
       
       <div 
-        className="absolute bg-rose-950 rounded shadow-lg p-5 xl:mr-32 sm:p-8 md:p-10 lg:p-12"
+        className="absolute bg-rose-950 rounded shadow-lg p-5 xl:mr-16 sm:p-8 md:p-10 lg:p-12"
         style={{ maxWidth: '90%', width: '100%', maxWidth: '700px' }}
       >
         <div className="container text-center lg:text-left">
