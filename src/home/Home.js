@@ -8,7 +8,7 @@ import TitlePic from "./TitlePic"
 const Home = () => {
 
     return (
-        <div className="bg-dark min-h-screen">
+        <div className="bg-dark min-h-screen overflow-x-hidden">
           <div className="max-w-[1600px] mx-auto">
                 <MyHeader />
                 <TitlePic />
