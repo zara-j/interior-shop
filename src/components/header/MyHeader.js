@@ -26,7 +26,7 @@ const MyHeader = () => {
       </div>
 
       <div className="md:hidden">
-        <button onClick={toggleMenu} className="text-3xl  focus:outline-none">
+        <button onClick={toggleMenu} className="text-3xl focus:outline-none float-right ml-10">
           {isOpen ? <FiX /> : <FiMenu />}
         </button>
       </div>
