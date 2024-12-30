@@ -36,6 +36,7 @@ const OurProducts = () => {
                     />
                 ))}
             </div>
+            <button className="text-lg font-bold border-2 border-yellow-600 text-yellow-600 px-16 py-3 mt-4">Show More</button>
         </div>
     );
 };
