@@ -5,7 +5,7 @@ const BrowseTheRange = (
 ) => {
 
     return (
-        <div className="bg-light text-center p-5">
+        <div className="bg-light text-center p-5 sm:mx7">
             <div>
                 <h1 className="bg-light font-bold text-4.5xl pt-3">Browse The Range</h1>
                 <h2 className="text-dark text-2xl/loose text-muted pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
