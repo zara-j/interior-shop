@@ -1,5 +1,6 @@
 import MyHeader from "../components/header/MyHeader"
 import BrowseTheRange from "./BrowseTheRange"
+import Inspiration from "./Inspiration"
 import OurProducts from "./products/OurProducts"
 import TitlePic from "./TitlePic"
 
@@ -14,6 +15,7 @@ const Home = () => {
                 <TitlePic />
                 <BrowseTheRange />
                 <OurProducts />
+                <Inspiration />
             </div>
         </div>
     )
