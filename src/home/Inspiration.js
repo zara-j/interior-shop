@@ -3,11 +3,12 @@ import inspire1 from '../assets/inspire1.jpg';
 import inspire2 from '../assets/inspire2.jpg';
 import inspire3 from '../assets/inspire3.jpg';
 
+
 const Inspiration = () => {
     const images = [inspire0, inspire1, inspire2, inspire3];
 
     return (
-        <div className="bg-light py-20">
+        <div className="bg-fuchsia-50 py-20">
             <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start px-5">
                 <div className="lg:text-left p-5 lg:w-[40%]">
                     <h1 className="text-5xl text-gray-700 font-bold lg:text-left">
@@ -21,7 +22,7 @@ const Inspiration = () => {
                     </button>
                 </div>
 
-                <div className="overflow-x-scroll scroll-smooth w-full lg:w-[60%]">
+                <div className="overflow-x-scroll scroll-smooth w-full lg:w-[50%]">
                     <div className="flex space-x-6">
                         {images.map((img, index) => (
                             <img

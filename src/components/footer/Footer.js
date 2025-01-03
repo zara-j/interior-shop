@@ -14,15 +14,15 @@ const Footer = () => {
                         <ul className="pr-3">
                             <li className="text-gray-400 py-4">Links</li>
                             <li className="py-4 font-medium hover:underline">Home</li>
-                            <li className="py-4 hover:underline">Shop</li>
-                            <li className="py-4 hover:underline">About</li>
-                            <li className="py-4 hover:underline">Contact</li>
+                            <li className="py-4 font-medium hover:underline">Shop</li>
+                            <li className="py-4 font-medium hover:underline">About</li>
+                            <li className="py-4 font-medium hover:underline">Contact</li>
                         </ul>
                         <ul className="pr-3">
                             <li className="text-gray-400 py-4">Help</li>
                             <li className="py-4 font-medium hover:underline">Payment Options</li>
-                            <li className="py-4 hover:underline">Returns</li>
-                            <li className="py-4 hover:underline">Privacy Policies</li>
+                            <li className="py-4 font-medium hover:underline">Returns</li>
+                            <li className="py-4 font-medium hover:underline">Privacy Policies</li>
                         </ul>
                         <ul className="pr-3">
                             <li className="text-gray-400 py-4">Newsletter</li>
@@ -37,8 +37,8 @@ const Footer = () => {
                 </div>
             </div>
             <div className="w-full pt-4 pl-6">
-                <hr className=" w-5/6 mx-auto border-gray-600" />
-                <p className="text-left text-lg p-3 lg:ml-32">2023 Cozy Home. All rights revered</p>
+                <hr className="mx-auto border-gray-600 w-11/12" />
+                <p className="text-left text-lg font-medium p-3 lg:ml-12">2023 Cozy Home. All rights revered</p>
             </div>
         </div>
     )

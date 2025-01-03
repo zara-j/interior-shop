@@ -1,0 +1,35 @@
+.relative > div:first-child {
+  margin-left: -20%; 
+}
+
+.relative > div:last-child {
+  margin-right: -15%;
+}
+
+.img-0 {
+  margin-top: -80x;
+}
+.img-1 {
+  margin-top: 40px;
+}
+.img-2 {
+  margin-top: 80px;
+}
+.img-3 {
+  margin-top: 20px;
+}
+.img-4 {
+  margin-top: -80px;
+}
+.img-5 {
+  margin-top: 40px;
+}
+.img-6 {
+  margin-top: 10px;
+}
+/* .img-7 {
+  margin-top: 10px;
+}
+.img-8 {
+  margin-top: 20px
+} */

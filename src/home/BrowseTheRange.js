@@ -5,9 +5,9 @@ const BrowseTheRange = (
 ) => {
 
     return (
-        <div className="bg-light text-center p-5 sm:mx7">
+        <div className="bg-white text-center p-5 sm:mx7">
             <div>
-                <h1 className="bg-light font-bold text-4.5xl pt-3">Browse The Range</h1>
+                <h1 className="bg-white font-bold text-4.5xl pt-3">Browse The Range</h1>
                 <h2 className="text-dark text-2xl font-normal text-muted pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6 lg:mx-14">
