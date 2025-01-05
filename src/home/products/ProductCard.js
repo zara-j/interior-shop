@@ -1,6 +1,7 @@
 import { CiShare2 } from "react-icons/ci";
 import { MdCompareArrows } from "react-icons/md";
 import { CiHeart } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 const ProductCard = ({ image, name, description, price, sale }) => {
     return (
@@ -8,18 +9,20 @@ const ProductCard = ({ image, name, description, price, sale }) => {
             <img className="w-full h-[320px] object-cover object-center" src={image} alt={name} />
 
             <div className="absolute inset-0 bg-neutral-950 bg-opacity-60 translate-x-full group-hover:translate-x-0 flex flex-col justify-center items-center gap-4 transition-transform duration-300 ease-in-out">
-                <button className="bg-white text-yellow-700 font-bold text-lg px-12 py-3 transition">
-                    Add to Cart
-                </button>
+                <Link to="cart">
+                    <button className="bg-white text-yellow-700 font-bold text-lg px-12 py-3 transition">
+                        Add to Cart
+                    </button>
+                </Link>
                 <div className="flex gap-4">
-                    <button className="flex items-center justify-center text-white text-lg font-bold hover:bg-indigo-500 hover:text-white transition">
-                    <CiShare2 className="mr-1 text-xl"/>{"Share"}
+                    <button className="flex items-center justify-center text-white text-lg font-bold hover:text-slate-800 transition">
+                        <CiShare2 className="mr-1 text-xl" />{"Share"}
                     </button>
-                    <button className="flex items-center justify-center text-white text-lg font-bold hover:bg-indigo-500 hover:text-white transition">
-                    <MdCompareArrows className="mr-1 text-xl"/>{"Compare"}
+                    <button className="flex items-center justify-center text-white text-lg font-bold hover:text-slate-800 transition">
+                        <MdCompareArrows className="mr-1 text-xl" />{"Compare"}
                     </button>
-                    <button className="flex items-center justify-center text-white text-lg font-bold hover:bg-indigo-500 hover:text-white transition">
-                    <CiHeart className="mr-1 text-xl"/>{"Like"}
+                    <button className="flex items-center justify-center text-white text-lg font-bold hover:text-slate-800 transition">
+                        <CiHeart className="mr-1 text-xl" />{"Like"}
                     </button>
                 </div>
             </div>

@@ -12,7 +12,7 @@ const MyHeader = () => {
   };
 
   return (
-    <div className="bg-light flex lg:flex-row md:justify-between items-center p-4 text-xl relative">
+    <div className="bg-light flex lg:flex-row md:justify-between items-center p-4 relative">
       <h2 className="flex flex-row items-center font-bold text-3xl">
         <FaPhoenixSquadron className="m-1" /> Cozy Home
       </h2>
