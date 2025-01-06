@@ -1,7 +1,7 @@
 const Subtotal=()=>{
     return(
         <div>
-             <div className="py-8 px-14 bg-accent-light text-lg text-center">
+             <div className="py-8 px-14 bg-purple-50 text-lg text-center mb-10">
                         <h1 className="p-5 pt-0 font-bold">Cart Totals</h1>
                         <div className="flex justify-between p-3">
                             <span className="mx-2 font-semibold">Subtotal</span>

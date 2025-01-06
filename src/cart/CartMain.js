@@ -1,15 +1,15 @@
 import { TbSquareNumber1 } from "react-icons/tb";
 import { FaTrash } from "react-icons/fa";
-
 import sofa from '../assets/sofa.jpg';
 import Subtotal from "./Subtotal";
+import CartFooter from "./CartFooter";
 
 const CartMain = () => {
     return (
         <div className="bg-white">
-            <div className="container py-10 pt-5 flex lg:justify-around lg:flex-row flex-col">
+            <div className="container py-16 pt-16 flex lg:justify-around lg:flex-row flex-col">
                 <table className="hidden xl:table text-center lg:text-lg">
-                    <tr className="bg-accent-light">
+                    <tr className="bg-purple-50">
                         <th className="lg:px-3 lg:py-0.5"></th>
                         <th className="lg:px-3 lg:py-0.5">Product</th>
                         <th className="lg:px-3 lg:py-0.5">Price</th>
@@ -43,8 +43,11 @@ const CartMain = () => {
                 </div>
 
                 <div>
-                   <Subtotal />
+                    <Subtotal />
                 </div>
+            </div>
+            <div>
+                <CartFooter />
             </div>
         </div>
     )
