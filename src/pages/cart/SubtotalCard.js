@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const SubtotalCard=()=>{
     return(
         <div>
@@ -11,7 +13,7 @@ const SubtotalCard=()=>{
                             <span className="mx-2 font-semibold">Total</span>
                             <span className="mx-2 text-yellow-700 text-xl">Rs.250,000.00</span>
                         </div>
-                        <button className="border-2 border-black rounded-2xl px-12 py-3 mb-8 m-3 text-2xl">Check Out</button>
+                        <Link to="/checkout"><button className="border-2 border-black rounded-2xl px-12 py-3 mb-8 m-3 text-2xl">Check Out</button></Link>
                     </div>
         </div>
     )
