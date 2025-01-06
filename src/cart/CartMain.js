@@ -1,7 +1,7 @@
 import { TbSquareNumber1 } from "react-icons/tb";
 import { FaTrash } from "react-icons/fa";
 import sofa from '../assets/sofa.jpg';
-import Subtotal from "./Subtotal";
+import SubtotalCard from "./SubtotalCard";
 import CartFooter from "./CartFooter";
 
 const CartMain = () => {
@@ -43,7 +43,7 @@ const CartMain = () => {
                 </div>
 
                 <div>
-                    <Subtotal />
+                    <SubtotalCard />
                 </div>
             </div>
             <div>

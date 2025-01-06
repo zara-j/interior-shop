@@ -1,4 +1,4 @@
-const Subtotal=()=>{
+const SubtotalCard=()=>{
     return(
         <div>
              <div className="py-8 px-14 bg-purple-50 text-lg text-center mb-10">
@@ -16,4 +16,4 @@ const Subtotal=()=>{
         </div>
     )
 };
-export default Subtotal
+export default SubtotalCard
