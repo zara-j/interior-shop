@@ -7,7 +7,7 @@ import CartFooter from "./CartFooter";
 const CartMain = () => {
     return (
         <div className="bg-white">
-            <div className="container py-16 pt-16 flex lg:justify-around lg:flex-row flex-col">
+            <div className="container py-16 pt-16 flex xl:justify-around xl:flex-row flex-col">
                 <table className="hidden xl:table text-center lg:text-lg">
                     <tr className="bg-purple-50">
                         <th className="lg:px-3 lg:py-0.5"></th>
