@@ -1,6 +1,6 @@
-import dining from '../assets/dining.png'
-import bedroom from '../assets/bedroom.png'
-import living from '../assets/living.png'
+import dining from '../../assets/dining.png'
+import bedroom from '../../assets/bedroom.png'
+import living from '../../assets/living.png'
 const BrowseTheRange = (
 ) => {
 

@@ -1,13 +1,13 @@
 import Masonry from 'react-masonry-css';
-import furniture1 from '../assets/furniture1.jpg';
-import furniture2 from '../assets/furniture2.jpg'
-import furniture3 from '../assets/furniture3.jpg';
-import furniture4 from '../assets/furniture4.jpg';
-import furniture5 from '../assets/furniture5.jpg';
-import furniture6 from '../assets/furniture6.jpg';
-import furniture7 from '../assets/furniture7.jpg';
-import furniture8 from '../assets/furniture8.jpg';
-import furniture9 from '../assets/furniture9.jpg';
+import furniture1 from '../../assets/furniture1.jpg';
+import furniture2 from '../../assets/furniture2.jpg'
+import furniture3 from '../../assets/furniture3.jpg';
+import furniture4 from '../../assets/furniture4.jpg';
+import furniture5 from '../../assets/furniture5.jpg';
+import furniture6 from '../../assets/furniture6.jpg';
+import furniture7 from '../../assets/furniture7.jpg';
+import furniture8 from '../../assets/furniture8.jpg';
+import furniture9 from '../../assets/furniture9.jpg';
 import './messyMansory.css';
 
 const Furniture = (

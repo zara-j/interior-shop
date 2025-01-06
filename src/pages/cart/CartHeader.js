@@ -1,9 +1,10 @@
-import Footer from "../components/footer/Footer";
-import MyHeader from "../components/header/MyHeader";
-import cartBg from '../assets/cartBg.jpg'
+import Footer from "../../components/footer/Footer";
+import MyHeader from "../../components/header/MyHeader";
+import cartBg from '../../assets/cartBg.jpg'
 import { FaPhoenixSquadron } from 'react-icons/fa';
 import { PiGreaterThan } from "react-icons/pi";
-import CartMain from "./CartMain";
+import CartMain from "./../cart/CartMain";
+
 
 const CartHeader = () => {
     return (

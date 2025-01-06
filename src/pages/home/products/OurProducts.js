@@ -1,12 +1,12 @@
 import ProductCard from "./ProductCard";
-import cafeChair1 from '../../assets/cafeChair.jpg';
-import cafeChair2 from '../../assets/cafeChair2.jpg';
-import bigSofa from '../../assets/bigSofa.jpg';
-import outdoorTable from '../../assets/outdoorTable.jpg';
-import lamp from '../../assets/lamp.jpg';
-import mug from '../../assets/mug.jpg';
-import bed from '../../assets/bed.jpg';
-import pot from '../../assets/pot.jpg';
+import cafeChair1 from '../../../assets/cafeChair.jpg';
+import cafeChair2 from '../../../assets/cafeChair2.jpg';
+import bigSofa from '../../../assets/bigSofa.jpg';
+import outdoorTable from '../../../assets/outdoorTable.jpg';
+import lamp from '../../../assets/lamp.jpg';
+import mug from '../../../assets/mug.jpg';
+import bed from '../../../assets/bed.jpg';
+import pot from '../../../assets/pot.jpg';
 
 
 const OurProducts = () => {

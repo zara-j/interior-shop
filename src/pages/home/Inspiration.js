@@ -1,7 +1,7 @@
-import inspire0 from '../assets/inspire0.jpg';
-import inspire1 from '../assets/inspire1.jpg';
-import inspire2 from '../assets/inspire2.jpg';
-import inspire3 from '../assets/inspire3.jpg';
+import inspire0 from '../../assets/inspire0.jpg';
+import inspire1 from '../../assets/inspire1.jpg';
+import inspire2 from '../../assets/inspire2.jpg';
+import inspire3 from '../../assets/inspire3.jpg';
 
 
 const Inspiration = () => {

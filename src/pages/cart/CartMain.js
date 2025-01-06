@@ -1,8 +1,8 @@
 import { TbSquareNumber1 } from "react-icons/tb";
 import { FaTrash } from "react-icons/fa";
-import sofa from '../assets/sofa.jpg';
-import SubtotalCard from "./SubtotalCard";
-import CartFooter from "./CartFooter";
+import sofa from '../../assets/sofa.jpg';
+import SubtotalCard from "./../cart/SubtotalCard";
+import CartFooter from "./../cart/CartFooter";
 
 const CartMain = () => {
     return (

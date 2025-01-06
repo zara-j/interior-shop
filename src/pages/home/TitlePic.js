@@ -1,4 +1,4 @@
-import titleBg01 from '../assets/bg03.jpg';
+import titleBg01 from '../../assets/bg03.jpg';
 
 const TitlePic = () => {
   return (

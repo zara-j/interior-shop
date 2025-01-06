@@ -1,9 +1,8 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from './home/Home';
-import CartHeader from './cart/CartHeader';
-
+import Home from './pages/home/Home';
+import CartHeader from './pages/cart/CartHeader';
 
 function App() {
   return (

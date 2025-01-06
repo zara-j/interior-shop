@@ -1,8 +1,8 @@
-import Footer from "../components/footer/Footer"
-import MyHeader from "../components/header/MyHeader"
-import BrowseTheRange from "./BrowseTheRange"
-import Furniture from "./Furniture"
-import Inspiration from "./Inspiration"
+import Footer from "../../components/footer/Footer"
+import MyHeader from "../../components/header/MyHeader"
+import BrowseTheRange from "../home/BrowseTheRange"
+import Furniture from "./../home/Furniture"
+import Inspiration from "./../home/Inspiration"
 import OurProducts from "./products/OurProducts"
 import TitlePic from "./TitlePic"
 
