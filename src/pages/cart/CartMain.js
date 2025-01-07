@@ -9,7 +9,7 @@ const CartMain = () => {
         <div className="bg-black overflow-x-hidden">
             <div className="bg-white max-w-[1600px] mx-auto">
                 <MyHeader />
-                <CartHeader />
+                <CartHeader title="Cart"/>
                 <CartTable />
                 <CartFooter />
                 <Footer />
