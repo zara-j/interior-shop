@@ -2,9 +2,9 @@ import Payment from "./Payment";
 
 const CheckoutTotal = () => {
     return (
-        <div className="w-full">
-            <div className="px-14 text-center py-24">
-                <div className="flex justify-between p-3 text-3xl font-semibold">
+        <div className="w-full xl:1/2">
+            <div className="mx-2 xl:px-14 pt-6 xl:pt-16 border-2 xl:border-none text-center ">
+                <div className="flex xl:justify-between justify-center xl:p-3 text-3xl font-semibold">
                     <span className="mx-2">Product</span>
                     <span className="mx-2">Subtotal</span>
                 </div>

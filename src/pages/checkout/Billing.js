@@ -3,15 +3,15 @@ import CheckoutTotal from "./CheckoutTotal";
 const Billing = () => {
     return (
         <div className="container bg-white py-32">
-            <div className="flex flex-row ">
-                <div className="w-1/2 p-8">
+            <div className="flex flex-col xl:flex-row ">
+                <div className="w-full xl:w-1/2 p-8">
                     <h1 className="font-bold m-3">Billing details</h1>
-                    <div className="flex pr-3">
-                        <div className="">
+                    <div className="flex flex-col xl:flex-row pr-3">
+                        <div className="w-full lg:w-1/2">
                             <label className="block text-lg font-semibold py-2 m-3">First Name</label>
                             <input className="border-2 border-stone-400 rounded-xl block text-base py-4 m-3" type="text" />
                         </div>
-                        <div className="">
+                        <div className="w-full lg:w-1/2">
                             <label className="block text-lg font-semibold py-2 m-3">Last Name</label>
                             <input className="border-2 border-stone-400 rounded-xl block text-base py-4 m-3" type="text" />
                         </div>
