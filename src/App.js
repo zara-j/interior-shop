@@ -5,16 +5,18 @@ import Home from './pages/home/Home';
 import CartMain from './pages/cart/CartMain';
 import CheckOut from './pages/checkout/CheckOut';
 import Contact from './pages/contact/Contact';
+import Shop from './pages/shop/Shop';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/cart" element={<CartMain />}></Route>
-            <Route path="/contact" element={<Contact />}></Route>
-            <Route path="/checkout" element={<CheckOut />}></Route>
+            <Route path="/" element={<Home />} />
+            <Route path="/cart" element={<CartMain />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/checkout" element={<CheckOut />} />
+            <Route path="/shop" element={<Shop />} />
           </Routes>
       </BrowserRouter>
     </div>

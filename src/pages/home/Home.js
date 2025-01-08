@@ -3,8 +3,8 @@ import MyHeader from "../../components/header/MyHeader"
 import BrowseTheRange from "../home/BrowseTheRange"
 import Furniture from "./../home/Furniture"
 import Inspiration from "./../home/Inspiration"
-import OurProducts from "./products/OurProducts"
 import TitlePic from "./TitlePic"
+import HomePageProduct from "./HomePageProducts"
 
 
 
@@ -16,7 +16,7 @@ const Home = () => {
                 <MyHeader />
                 <TitlePic />
                 <BrowseTheRange />
-                <OurProducts />
+                <HomePageProduct />
                 <Inspiration />
                 <Furniture />
                 <Footer />
