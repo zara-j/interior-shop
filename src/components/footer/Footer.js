@@ -15,7 +15,7 @@ const Footer = () => {
                             <li className="text-gray-400 py-4">Links</li>
                             <li className="py-4 font-medium hover:underline">Home</li>
                             <li className="py-4 font-medium hover:underline">Shop</li>
-                            <li className="py-4 font-medium hover:underline">About</li>
+                            <li className="py-4 font-medium hover:underline">Blog</li>
                             <li className="py-4 font-medium hover:underline">Contact</li>
                         </ul>
                         <ul className="pr-3">
