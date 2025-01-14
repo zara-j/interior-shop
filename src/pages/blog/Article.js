@@ -4,11 +4,13 @@ import RecentPosts from "./RecentPosts";
 const Article = (
 ) => {
     return (
-        <div className="lg:w-1/4 flex-col p-3">
-            <div className="relative flex items-center justify-end">
-                <input type="search" className="border border-black px-12 py-3 rounded-xl" />
+        <div className="xl:w-1/4 w-full flex-col justify-center items-center p-3 xl:p-1">
+          <div className="flex justify-center">
+          <div className="relative flex items-center justify-end mt-7 xl:mt-0">
+                <input type="search" className="border border-black px-12 py-3 rounded-xl w-full" />
                 <IoSearch className="text-3xl absolute mr-2" />
             </div>
+          </div>
             <div className="flex flex-col py-4 mt-4">
                 <div className="text-2xl font-bold">Categories</div>
                 <div className="flex justify-between text-gray-400 text-lg pt-5">

@@ -19,7 +19,7 @@ const Pagination = ({ items, itemsPerPage }) => {
 
     return (
         <div className="flex flex-col items-center">
-            <ProductList products={currentItems} />
+            {/* <ProductList products={currentItems} /> */}
             <div className="flex gap-2 mt-4">
                 <button
                     onClick={() => handlePageChange(currentPage - 1)}

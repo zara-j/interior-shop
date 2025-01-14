@@ -1,39 +1,46 @@
 import post1 from '../../assets/post1.jpg';
-import { FaUser, FaCalendar, FaTag } from "react-icons/fa";
-import { useState } from 'react';
-import { loremIpsum } from 'react-lorem-ipsum';
+import post2 from '../../assets/post2.jpg';
+import post3 from '../../assets/post3.jpg';
 import Article from './Article';
+import Postscontexts from '../../components/Postscontexts';
+import Pagination from '../../components/Pagination';
 
 const Posts = () => {
-    const [isExpanded, setIsExpanded] = useState(false);
-    const loremText = loremIpsum({ count: 5 }); // Generates 5 paragraphs
-
-    const fullText = loremText.join(' '); 
-    const previewText = loremText[0]; 
-
+    const posts = [
+        {
+            id: 'post1',
+            title: 'Going all-in with millennial design',
+            tag: 'Wood',
+            image: post1,
+        },
+        {
+            id: 'post2',
+            title: 'Exploring new ways of decorating',
+            tag: 'Handmade',
+            image: post2,
+        },
+        {
+            id: 'post3',
+            title: 'Handmade pieces that took time to make',
+            tag: 'Wood',
+            image: post3,
+        },
+    ]
     return (
-        <div className="container flex flex-col xl:flex-row justify-between py-24">
-            <div className="w-3/4 p-3">
-                <div>
-                    <img src={post1} className="lg:max-w-[800px] lg:max-h-[600px] rounded-lg" />
-                    <div className="flex items-center tex-wrap text-lg text-gray-400 py-3">
-                        <FaUser /><div className="ml-1 mr-6">Admin</div>
-                        <FaCalendar /><div className="ml-1 mr-6">14 Oct 2024</div>
-                        <FaTag /><div className="ml-1 mr-6">Wood</div>
-                    </div>
-                </div>
-                <div>
-                    <div className="text-3xl font-bold pt-2">Going all-in with millennial design</div>
-                    <p>
-                        {isExpanded ? fullText : previewText}
-                    </p>
-                    <button 
-                        onClick={() => setIsExpanded(!isExpanded)} 
-                        className=" underline mt-2"
-                    >
-                        {isExpanded ? 'Read Less' : 'Read More'}
-                    </button>
-                </div>
+        <div className="container flex flex-col xl:flex-row justify-between py-6 xl:py-24">
+            <div className="lg:w-2/3 w-full">
+            <div>
+                {posts.map((post)=>(
+                <Postscontexts 
+                key={post.id}
+                img={post.image}
+                alt={post.title}
+                topic={post.title}
+                tag={post.tag}
+                />
+            ))}
+            </div>
+            <Pagination items={posts} itemsPerPage={3} />
             </div>
             <Article />
         </div>
