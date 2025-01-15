@@ -1,7 +1,7 @@
 # Simple eCommerce Website 
 
 This React-based project demonstrates responsive UI design and layout for an eCommerce website. While it uses React for efficiency, the focus is on visual design, not complex features.
-# A view of the page:
+# A view of the Home page:
 ![image](https://github.com/user-attachments/assets/14637ce8-70d5-4713-a9f5-103dca60f070)
 ![image](https://github.com/user-attachments/assets/98020617-24ae-408f-9119-718c27d8e577)
 ![image](https://github.com/user-attachments/assets/049ae04d-d3dd-4ce9-8581-b631df51e8e8)
