@@ -7,7 +7,7 @@ import Footer from "../../components/footer/Footer";
 const CartMain = () => {
     return (
         <div className="bg-black overflow-x-hidden">
-            <div className="bg-white max-w-[1600px] mx-auto">
+            <div className="bg-white max-w-[1400px] mx-auto">
                 <MyHeader />
                 <CartHeader title="Cart"/>
                 <CartTable />

@@ -4,10 +4,10 @@ import { MdOutlineAccessTimeFilled } from "react-icons/md";
 
 const Address = () => {
     return (
-            <div className="w-full xl:w-1/2 text-xl p-3">
+            <div className="w-full xl:w-1/2 xl:pl-36 xl:py-4">
                 <div className="flex p-3">
                     <div>
-                        <IoLocationSharp className="text-3xl mr-4" />
+                        <IoLocationSharp className="text-2xl mr-4" />
                     </div>
                     <div className="p-1">
                         <div className="text-2xl font-semibold">Address</div>
@@ -19,7 +19,7 @@ const Address = () => {
 
                 <div className="flex p-3">
                     <div>
-                        <FaPhoneAlt className="text-3xl mr-4" />
+                        <FaPhoneAlt className="text-2xl mr-4" />
                     </div>
                     <div className="p-1">
                         <div className="text-2xl font-semibold">Phone</div>
@@ -36,7 +36,7 @@ const Address = () => {
 
                 <div className="flex p-3">
                     <div>
-                        <MdOutlineAccessTimeFilled className="text-3xl mr-4" />
+                        <MdOutlineAccessTimeFilled className="text-2xl mr-4" />
                     </div>
                     <div className="p-1">
                         <div className="text-2xl font-semibold">Working Time</div>

@@ -9,13 +9,13 @@ const IconNavbar = (
 ) => {
     return (
         <div className="flex justify-center">
-            <Link to="/profile" className="text-dark px-4 no-underline">
+            <Link to="/checkout" className="text-dark px-4 no-underline">
                 <h3><FaRegUser /></h3>
             </Link>
-            <Link to="/search" className="text-dark px-4 no-underline">
+            <Link to="/cart" className="text-dark px-4 no-underline">
                 <h3> <HiMiniMagnifyingGlass /></h3>
             </Link>
-            <Link to="/favorites" className="text-dark px-4 no-underline">
+            <Link to="/checkout" className="text-dark px-4 no-underline">
                 <h3><IoIosHeartEmpty /></h3>
             </Link>
             <Link to="/cart" className="text-dark px-4 no-underline">

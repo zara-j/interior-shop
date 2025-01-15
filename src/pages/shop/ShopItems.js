@@ -4,9 +4,9 @@ import { products } from '../../data/products';
 
 const ShopItems = () => {
     return (
-        <div className="bg-white flex flex-col items-center py-10">
+        <div className="bg-white flex flex-col items-center px-12 py-10">
             <ProductList products={products} />
-            <Pagination items={products} itemsPerPage={8} />
+            <Pagination items={products} itemsPerPage={16} />
         </div>
     );
 };

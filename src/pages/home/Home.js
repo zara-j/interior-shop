@@ -12,7 +12,7 @@ const Home = () => {
 
     return (
         <div className="bg-black min-h-screen overflow-x-hidden">
-          <div className="max-w-[1600px] mx-auto">
+          <div className="max-w-[1400px] mx-auto">
                 <MyHeader />
                 <TitlePic />
                 <BrowseTheRange />

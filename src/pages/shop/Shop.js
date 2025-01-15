@@ -7,7 +7,7 @@ import ShopItems from "./ShopItems";
 const Shop = () => {
     return (
         <div className="bg-black min-h-screen overflow-x-hidden">
-            <div className="bg-white max-w-[1600px] mx-auto">
+            <div className="bg-white max-w-[1400px] mx-auto">
                 <MyHeader />
                 <CartHeader title="Shop" />
                 <ShopItems />

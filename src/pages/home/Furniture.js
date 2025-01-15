@@ -8,19 +8,16 @@ import furniture6 from '../../assets/furniture6.jpg';
 import furniture7 from '../../assets/furniture7.jpg';
 import furniture8 from '../../assets/furniture8.jpg';
 import furniture9 from '../../assets/furniture9.jpg';
-import './messyMansory.css';
+
 
 const Furniture = (
 ) => {
   const images = [
     furniture1, furniture2, furniture3,
     furniture4, furniture5, furniture6,
-    furniture7,
+    furniture7, furniture8,
   ];
 
-  // Create arrays with the desired widths and heights for each image
-const imageWidths = [380, 800, 400, 400, 400, 450, 400];
-  const imageHeights = [100, 900, 450, 400, 400, 350, 200];
 
   const breakpointColumnsObj = {
     default: 5,
@@ -32,10 +29,10 @@ const imageWidths = [380, 800, 400, 400, 400, 450, 400];
   return (
     <div className="bg-white pt-20">
       <div className="text-center mb-14">
-        <p className="text-xl font-bold text-muted">
+        <p className="text-lg xl:text-xl font-bold text-muted">
           Share your setup with
         </p>
-        <h1 className="text-6xl font-bold text-gray-800">
+        <h1 className="text-3xl xl:text-6xl font-bold text-gray-800">
           #CozyHomeFurniture
         </h1>
       </div>
@@ -43,20 +40,17 @@ const imageWidths = [380, 800, 400, 400, 400, 450, 400];
       <div className="relative overflow-hidden">
         <Masonry
           breakpointCols={breakpointColumnsObj}
-          className="flex gap-3"
-          columnClassName="masonry-column">
+          className="flex flex-col xl:flex-row gap-3">
           {images.map((img, index) => (
-            <div key={index} className={`overflow-hidden img-${index}`}>
+            <div key={index} className="overflow-x-hidden">
               <img
                 src={img}
                 alt={`furniture-${index}`}
-                width={imageWidths[index]}
-                height={imageHeights[index]}
-                className="overflow-hidden my-3 object-cover transform scale-125 hover:scale-120 transition ease-in-out"
-              />
+                className="w-full h-auto my-3 object-cover transform scale-100 hover:scale-105 transition ease-in-out" />
             </div>
           ))}
         </Masonry>
+
       </div>
     </div>
   );

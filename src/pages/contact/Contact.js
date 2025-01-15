@@ -7,7 +7,7 @@ import ContactInfo from "./ContactInfo";
 const Contact=()=>{
     return(
         <div className="bg-black overflow-x-hidden">
-            <div className="bg-white max-w-[1600px] mx-auto">
+            <div className="bg-white max-w-[1400px] mx-auto">
                 <MyHeader />
                 <CartHeader title="Contact"/>
                 <ContactInfo />

@@ -2,7 +2,7 @@ import CheckoutTotal from "./CheckoutTotal";
 
 const Billing = () => {
     return (
-        <div className="container bg-white py-32">
+        <div className="container bg-white py-10 xl:py-32">
             <div className="flex flex-col xl:flex-row ">
                 <div className="w-full xl:w-1/2 p-8">
                     <h1 className="font-bold m-3">Billing details</h1>
