@@ -14,20 +14,20 @@ const ProductCard = ({ image, name, description, price, sale }) => {
                         Add to Cart
                     </button>
                 </Link>
-                <div className="flex gap-3">
-                    <button className="flex items-center justify-center text-white text-lg font-bold hover:text-slate-800 transition">
+                <div className="flex gap-1 xl:gap-2">
+                    <button className="flex items-center justify-center text-white text-base xl:text-lg font-bold hover:text-slate-800 transition">
                         <CiShare2 className="mr-1 text-xl" />{"Share"}
                     </button>
-                    <button className="flex items-center justify-center text-white text-lg font-bold hover:text-slate-800 transition">
+                    <button className="flex items-center justify-center text-white text-base xl:text-lg font-bold hover:text-slate-800 transition">
                         <MdCompareArrows className="mr-1 text-xl" />{"Compare"}
                     </button>
-                    <button className="flex items-center justify-center text-white text-lg font-bold hover:text-slate-800 transition">
+                    <button className="flex items-center justify-center text-white text-base xl:text-lg font-bold hover:text-slate-800 transition">
                         <CiHeart className="mr-1 text-xl" />{"Like"}
                     </button>
                 </div>
             </div>
 
-            <div className="p-2 ">
+            <div className="p-4">
                 <h1 className="font-bold text-2xl">{name}</h1>
                 <h2 className="text-muted text-base">{description}</h2>
                 <h1 className="flex items-center">
