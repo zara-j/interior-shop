@@ -28,7 +28,7 @@ const ProductList = ({ limit, currentItems, products }) => {
             {limit && (
                 <button
                     onClick={() => setShowAll(!showAll)}
-                    className="text-lg font-bold border-2 border-yellow-600 text-yellow-600 px-16 py-3 mt-4"
+                    className="text-lg font-bold border-2 border-yellow-600 text-yellow-600 px-16 py-3 mt-4 hover:bg-slate-300"
                 >
                     {showAll ? 'Show Less' : 'Show More'}
                 </button>

@@ -9,7 +9,7 @@ const ProductCard = ({ image, name, description, price, sale }) => {
             <img className="w-full h-[320px] object-cover object-center" src={image} alt={name} />
 
             <div className="absolute inset-0 bg-neutral-950 bg-opacity-60 translate-x-full group-hover:translate-x-0 flex flex-col justify-center items-center gap-4 transition-transform duration-300 ease-in-out">
-                <Link to="cart">
+                <Link to="/cart">
                     <button className="bg-white text-yellow-700 font-bold text-lg px-12 py-3 transition hover:bg-slate-300">
                         Add to Cart
                     </button>
